@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Zeamo</string>
+    <string name="zeamo">ZEAMO</string>
+    <string name="createaccount">Create Account</string>
+    <string name="tab_1">Search</string>
+    <string name="tab_2">Bookings</string>
+    <string name="tab_3">Favorites</string>
+    <string name="have_something_is_incorrect">Have something is incorrect</string>
+    <string name="create_account">Create Account</string>
+    <string name="username">Username</string>
+    <string name="re_enter_password">Re-enter password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">Or</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="cash">Cash</string>
+    <string name="seach_book">Seach. Book.</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="log_in">Log In</string>
+    <string name="create_account_cr">Create Account</string>
+    <string name="upload_your_picture">upload your picture</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="create_account_cr1">Create Account</string>
+    <string name="please_enter_valid_email">Please enter valid email</string>
+    <string name="username_lg">Username</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password_lg">Re-enter password</string>
+    <string name="i_agree_to_the_terms_and_conditions_n_and_have_read_privacy_policy"> I agree to the terms and conditions\n and have read privacy policy</string>
+    <string name="continue_1">Continue</string>
+    <string name="email">Email</string>
+    <string name="notiEmailCreatAC">Email can\'t be blank</string>
+    <string name="notiPassCreatAC">Password can\'t be blank</string>
+    <string name="notiRepassCreatAC">Re-enter pass can\'t be blank</string>
+    <string name="notiMatchpassCreatAC">Passwords must match</string>
+</resources>
