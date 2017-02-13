@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#1f5bb8</color>
-    <color name="colorPrimaryDark">#00947b</color>
+    <color name="colorPrimaryDark">#1f5bb8</color>
     <color name="colorAccent">#333132</color>
     <color name="colorMyPrimary">#1F5BB8</color>
     <color name="colorBrow">#274681</color>
     <color name="colorNotiCreateAc">#E56358</color>
+    <color name="white">#ffffff</color>
 </resources>

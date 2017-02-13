@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E2E7EE">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#5B6576"
+        android:text="Monday, June 22, 2015"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="@dimen/h4"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="#ffffff">
+
+        <ImageButton
+            android:id="@+id/btn_show"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:paddingRight="20dp"
+            android:background="#ffffff"
+            android:src="@drawable/arrow"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spingyoga"
+            android:textSize="@dimen/h3"
+            android:textColor="#000000"
+            android:layout_alignBaseline="@+id/txt_time"
+            android:layout_alignBottom="@+id/txt_time"
+            android:layout_toEndOf="@+id/txt_time"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/txt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4:30-6:30pm"
+            android:textSize="@dimen/h3"
+            android:textColor="#007360"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/txt_species"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Revolution Fitness"
+            android:textSize="@dimen/h3"
+            android:textColor="#666E7B"
+            android:layout_below="@+id/txt_name"
+            android:layout_alignStart="@+id/txt_time" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

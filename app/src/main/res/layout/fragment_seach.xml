@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:id="@+id/fragment_seach"
+    android:windowSoftInputMode="stateHidden">
 
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
@@ -21,6 +22,8 @@
                 android:layout_width="330dp"
                 android:layout_height="40dp"
                 android:textColor="#787878"
+                android:textSize="16dp"
+                android:paddingLeft="15dp"
                 android:drawableLeft="@drawable/ic_search"
                 android:background="@drawable/custom_edit_text"
                 android:layout_gravity="center"
@@ -44,6 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:text="@string/popular_seaches"
+        android:textColor="#22324B"
         android:textSize="18dp"
         android:textStyle="bold"
         android:background="#E2E7EE"
@@ -59,6 +63,5 @@
         android:scrollbars="vertical"
         android:layout_below="@+id/text_view"
         android:layout_alignParentStart="true">
-
     </android.support.v7.widget.RecyclerView>
 </RelativeLayout>

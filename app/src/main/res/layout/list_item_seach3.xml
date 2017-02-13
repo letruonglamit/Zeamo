@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#778eab"/>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ffffff">
+                <TextView
+                    android:id="@+id/txt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="@dimen/h3"
+                    android:text="4:30pm - Cross Fit Bootcamp"
+                    android:textColor="#282626"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:weightSum="1"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="5dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_girl"
+                        android:id="@+id/imageView"
+                        android:layout_marginRight="-5dp"/>
+
+                    <TextView
+                        android:id="@+id/txt_location"
+                        android:text="0.2 mi"
+                        android:layout_width="wrap_content"
+                        android:textColor="#5f7789"
+                        android:textSize="@dimen/h3"
+                        android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_group"
+                        android:id="@+id/imageViews"
+                        android:layout_marginLeft="15dp"/>
+
+                    <TextView
+                        android:id="@+id/txt_address"
+                        android:text="266 E 10th St"
+                        android:layout_width="wrap_content"
+                        android:textSize="@dimen/h3"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#6A8294"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/btn_show"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingRight="20dp"
+                android:background="#ffffff"
+                android:src="@drawable/arrow"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

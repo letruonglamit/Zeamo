@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E2E7EE">
+   <LinearLayout
+       android:id="@+id/tab_bookings"
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:orientation="horizontal"
+       android:gravity="center_horizontal"
+       android:background="#ffffff">
+
+       <Button
+           android:id="@+id/btn_upcoming"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="Upcoming"
+           android:background="@drawable/bookings_tab"
+           android:textColor="#798391"
+           android:textSize="17dp"
+           android:width="0dp"
+           android:layout_weight="1"/>
+
+       <Button
+           android:id="@+id/btn_history"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="History"
+           android:background="@drawable/bookings_tab_mid"
+           android:textColor="#205BB8"
+           android:textSize="17dp"
+           android:width="0dp"
+           android:layout_weight="1"/>
+
+       <Button
+           android:id="@+id/btn_passes"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="Passes"
+           android:background="@drawable/bookings_tab"
+           android:textColor="#205BB8"
+           android:textSize="17dp"
+           android:width="0dp"
+           android:layout_weight="1"/>
+   </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_bookings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -33,4 +33,16 @@
     <string name="notiRepassCreatAC">Re-enter pass can\'t be blank</string>
     <string name="notiMatchpassCreatAC">Passwords must match</string>
     <string name="login">Login</string>
+    <string name="this_tab_layout">this tab layout</string>
+    <string name="setting">Setting</string>
+    <string name="action_settings">Setting</string>
+    <string name="popular_seaches">Popular Seaches</string>
+    <string name="green_fitness_studio">Green Fitness Studio</string>
+    <string name="title">Collapsing header</string>
+    <string name="user_name">Delaroy</string>
+    <string name="title_activity_bookings">ActivityBookings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_demo">demo</string>
 </resources>

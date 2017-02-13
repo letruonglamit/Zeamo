@@ -8,39 +8,18 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity">
+        <activity android:name=".view.welcome.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".WelcomeActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.WelcomeActivity" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".CreateAccountActivity1">
-            <intent-filter>
-                <action android:name="android.intent.action.CreateAccountActivity" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".ForgotPassActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.ForgotPassActivity" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".LoginActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.LoginActivity" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <activity android:name=".view.MainActivity"></activity>
+        <activity android:name=".view.welcome.WelcomeActivity"></activity>
+        <activity android:name=".view.welcome.CreateAccountActivity1"></activity>
+        <activity android:name=".view.welcome.ForgotPassActivity"></activity>
+        <activity android:name=".view.welcome.LoginActivity"></activity>
+        <activity android:name=".view.SpinningContentFragment"></activity>
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
